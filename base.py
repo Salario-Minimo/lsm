@@ -10,7 +10,6 @@ st.header("🧏 Diccionario LSM - Español 📖")
 
 configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
 
-st.text(configuracion)
 st.text(señas)
 
 resultado = señas[señas["configuracion"]==configuracion]
