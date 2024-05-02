@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-señas = pd.DataFrame({"señas":("abril","bien","computadora","arroz", "agosto"),
-                      "configuracion":("a","b","c","a","a")})
+señas = pd.ExcelFile("señas_lsm.xlsx")
 
 
 st.header("🧏 Diccionario LSM - Español 📖")
