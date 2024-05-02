@@ -11,5 +11,5 @@ configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
 
 st.text(señas)
 
-resultado = señas[señas["configuracion"]==configuracion]
+resultado = señas[señas["Configuracion"]==configuracion]
 st.text(resultado)
