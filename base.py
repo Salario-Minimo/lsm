@@ -6,6 +6,8 @@ señas = pd.DataFrame({"señas":("abril","bien","computadora","arroz", "agosto")
 
 configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
 
+st.header("🧏 Diccionario LSM - Español 📖")
+
 st.text(configuracion)
 st.text(señas)
 
