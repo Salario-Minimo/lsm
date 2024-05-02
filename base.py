@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.selectbox("¿Cuál es la configuración?", ("a","b","c"), configuracion)
+configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
 
 st.text(configuracion)
