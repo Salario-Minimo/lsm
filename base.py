@@ -9,5 +9,5 @@ configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
 st.text(configuracion)
 st.text(señas)
 
-resultado = pd.DataFrame(señas["configuracion"]=="a")
+resultado = señas(señas["configuracion"]=="a")
 st.text(resultado)
