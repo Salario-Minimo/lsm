@@ -1,5 +1,7 @@
 import streamlit as st
 
-st.text("uwu")
-st.button("pruebas")
-st.ballons()
+st.selectbox("¿Cuál es la configuración?"("a",
+                                          "b",
+                                          "c"), configuracion)
+
+st.text(configuracion)
