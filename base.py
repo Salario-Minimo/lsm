@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 
-señas = pd.DataFrame({"señas":("abril","bien","computadora"),
+señas = pd.DataFrame({"señas":("abril","bien","computadora","arroz", "agosto"),
                       "configuracion":("a","b","c")})
 
-configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
+configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c","a","a"))
 
 st.text(configuracion)
 st.text(señas)
 
-for x in range(3):
-  st.text("uwu")
+resultado = df(df["configuracion"]=="a")
+st.text(resultado)
