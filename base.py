@@ -8,3 +8,6 @@ configuracion = st.selectbox("¿Cuál es la configuración?", ("a","b","c"))
 
 st.text(configuracion)
 st.text(señas)
+
+for x in range(3):
+  st.text("uwu")
