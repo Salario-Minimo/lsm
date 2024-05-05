@@ -15,8 +15,8 @@ simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
 
 st.image("Images/Blanco.png")
 
-st.text(señas)
-
 resultado = señas[señas["Configuracion"]==configuracion]
 resultado = resultado[resultado["Simetria"]==simetria]
-st.text(resultado)
+
+with st.container(500)
+  st.text("print")
