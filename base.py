@@ -13,7 +13,7 @@ st.header("🧏 Diccionario LSM - Español 📖")
 configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones)
 simetria = st.selectbox("¿Cuál es la simetría?", Simetrias)
 
-st.image(r"/Images/Blanco.png")
+st.image(r"Images/Blanco.png")
 
 st.text(señas)
 
