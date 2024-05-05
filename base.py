@@ -18,5 +18,5 @@ st.image("Images/Blanco.png")
 resultado = señas[señas["Configuracion"]==configuracion]
 resultado = resultado[resultado["Simetria"]==simetria]
 
-with st.container(500):
+with st.container(height = 500):
   st.text("print")
