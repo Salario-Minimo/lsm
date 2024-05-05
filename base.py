@@ -13,6 +13,8 @@ st.header("🧏 Diccionario LSM - Español 📖")
 configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones)
 simetria = st.selectbox("¿Cuál es la simetría?", Simetrias)
 
+st.image("/Images/Blanco.png")
+
 st.text(señas)
 
 resultado = señas[señas["Configuracion"]==configuracion]
