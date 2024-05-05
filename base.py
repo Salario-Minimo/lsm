@@ -19,4 +19,6 @@ resultado = señas[señas["Configuracion"]==configuracion]
 resultado = resultado[resultado["Simetria"]==simetria]
 
 with st.container(height = 500):
-  st.text("print")
+  for index, row in resultado.iterrows():
+    st.text(index)
+    st.text(row)
