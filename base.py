@@ -16,4 +16,5 @@ simetria = st.selectbox("¿Cuál es la simetría?", Simetrias)
 st.text(señas)
 
 resultado = señas[señas["Configuracion"]==configuracion]
+resultado = resultado[resultado["Simetria"]==simetria]
 st.text(resultado)
