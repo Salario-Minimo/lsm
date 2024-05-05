@@ -10,8 +10,8 @@ Simetrias = ("Singular", "Alternado", "Asimetrico", "Simetrico")
 st.header("🧏 Diccionario LSM - Español 📖")
 
 
-configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones)
-simetria = st.selectbox("¿Cuál es la simetría?", Simetrias)
+configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones, index = None)
+simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
 
 st.image("Images/Blanco.png")
 
