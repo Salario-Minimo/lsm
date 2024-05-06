@@ -21,3 +21,4 @@ resultado = resultado[resultado["Simetria"]==simetria]
 with st.container(height = 500):
   for index, row in resultado.iterrows():
     st.subheader(row["Seña"])
+    st.text(f"Configuración: {row["Configuración"]}, Simetría: {row["Simetria"]}")
