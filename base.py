@@ -20,5 +20,4 @@ resultado = resultado[resultado["Simetria"]==simetria]
 
 with st.container(height = 500):
   for index, row in resultado.iterrows():
-    st.text(index)
-    st.text(row)
+    st.text(row[Configuracion])
