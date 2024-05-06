@@ -20,4 +20,4 @@ with st.container(height = 500):
   for index, row in resultado.iterrows():
     st.subheader(row["Seña"])
     st.text(f"Configuración: {row["Configuracion"]}, Simetría: {row["Simetria"]}")
-    st.video("Videos/Naranja.mp4", loop=True, autoplay=True)
+    st.video("Videos/Naranja.mp4", loop=True)
