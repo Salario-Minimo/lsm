@@ -10,7 +10,7 @@ Zona = ("Mentón", "Mejillas", "Frente", "Pecho")
 st.header("🧏 Diccionario LSM - Español 📖")
 
 configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones, index = None)
-simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None
+simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
 
 if configuracion == None:
   resultado = señas
