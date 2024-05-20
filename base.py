@@ -12,6 +12,7 @@ st.header("🧏 Diccionario LSM - Español 📖")
 
 configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones, index = None)
 simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
+zona = st.selectbox("En qué zona del cuerpo está?", Zona, index = None)
 
 # Lógica detrás del sistema de filtrado.
 if configuracion == None:
