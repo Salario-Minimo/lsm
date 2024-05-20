@@ -19,7 +19,7 @@ if configuracion == None:
 else:
   resultado = señas[señas["Configuracion"]==configuracion]
 
-if configuracion == None:
+if simetria == None:
   resultado = resultado
 else:
   resultado = resultado[resultado["Simetria"]==simetria]
