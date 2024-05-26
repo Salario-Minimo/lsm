@@ -4,9 +4,8 @@ import pandas as pd
 # Declaración de base de datos y filtros.
 señas = pd.ExcelFile("Señas_lsm.xlsx").parse(0)
 Configuraciones = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
-Simetrias = ("Singular", "Alternado", "Asimetrico", "Simetrico")
-Zona = ("Espacio", "Mentón", "Mejillas", "Frente", "Pecho", "Dorso", "Mano", "Brazo")
-Mano_secundaria = ()
+Simetrias = ("Singular", "Alternado", "Asimétrico", "Simétrico")
+Zona = ("Espacio", "Cabeza", "Pecho", "Dorso", "Palma", "Brazo")
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
