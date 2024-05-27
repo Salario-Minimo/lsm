@@ -20,10 +20,13 @@ if configuracion == None:
 else:
   resultado = señas[señas["Configuracion"]==configuracion]
 
-if simetria == None:
-  resultado = resultado
-else:
+if simetria =! None:
   resultado = resultado[resultado["Simetria"]==simetria]
+
+if zona =! None:
+  resultado = resultado[resultado["Zona"]==zona]
+
+  
 
 # Output para el usuario.
 with st.container(height = 500):
