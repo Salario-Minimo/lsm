@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Declaración de base de datos y filtros.
-señas = pd.ExcelFile("Señas_lsm.xlsx").parse(0)
+señas = pd.read_csv("LSM base de datos")
 Configuraciones = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
 Simetrias = ("Singular", "Alternado", "Asimétrico", "Simétrico")
 Zona = ("Espacio", "Cabeza", "Pecho", "Dorso", "Palma", "Brazo")
@@ -20,7 +20,7 @@ if configuracion == None:
 else:
   resultado = señas[señas["Configuracion"]==configuracion]
 
-if simetria =! None:
+if simetria != None:
   resultado = resultado[resultado["Simetria"]==simetria]
 
 if zona =! None:
