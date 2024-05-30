@@ -19,10 +19,10 @@ zona = st.selectbox("En qué zona del cuerpo está?", Zona, index = None)
 if configuracion == None:
   resultado = señas
 else:
-  resultado = señas[señas["Configuracion"]==configuracion]
+  resultado = señas[señas["Configuración"]==configuracion]
 
 if simetria != None:
-  resultado = resultado[resultado["Simetria"]==simetria]
+  resultado = resultado[resultado["Simetría"]==simetria]
 
 if zona != None:
   resultado = resultado[resultado["Zona"]==zona]
