@@ -23,7 +23,7 @@ else:
 if simetria != None:
   resultado = resultado[resultado["Simetria"]==simetria]
 
-if zona =! None:
+if zona != None:
   resultado = resultado[resultado["Zona"]==zona]
 
   
