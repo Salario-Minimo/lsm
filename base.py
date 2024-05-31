@@ -9,7 +9,7 @@ Zona = (señas["Zona"].unique())
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
-with st.sidebar():
+with st.sidebar:
   st.header("¿Cuál es el objetivo?")
 
 
