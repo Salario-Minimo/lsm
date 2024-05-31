@@ -11,6 +11,11 @@ Zona = (señas["Zona"].unique())
 st.header("🧏 Diccionario LSM - Español 📖")
 with st.sidebar:
   st.header("¿Cuál es el objetivo?")
+  st.text("Se busca crear un diccionario con el cual se pueda buscar una seña basándose en sus características, un diccionario inverso, dónde teniendo la seña, se puede encontrar la palabra.")
+  st.header("¿Cómo se utiliza?")
+  st.text("Las señas se filtran con base en tres categorías básicas")
+  st.subheader("Configuración")
+  st.text("Es la forma que adopta la mano base, en este caso se categoriza basándome en el abecedario de LSM, o en su defecto se le da un nombre a configuraciones comunes que hay en esta lengua")
 
 
 # Declaración de filtros
