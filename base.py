@@ -16,6 +16,8 @@ with st.sidebar:
   st.write("Las señas se filtran con base en tres categorías básicas")
   st.subheader("Configuración")
   st.write("Es la forma que adopta la mano base, en este caso se categoriza basándome en el abecedario de LSM, o en su defecto se le da un nombre a configuraciones comunes que hay en esta lengua")
+  st.subheader("Simetría")
+  st.write("Es la forma en que las manos se comportan en conjunto,singular, cuando solo se utiliza una mano, simétrica, si ambas se comportan como un espejo, alternada, dónde las manos se turnan para hacer un movimiento, y asimétrico, dónde las dos manos hacen movimientos y configuraciones distintas.")
 
 
 # Declaración de filtros
