@@ -38,4 +38,4 @@ with st.container(height = 500):
     try:
       st.video(path, loop=True)
     except:
-      st.text("Video no encontrado (Lo subiré después)")
+      st.text("Video no encontrado (Pendiente de subir)")
