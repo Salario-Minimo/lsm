@@ -42,7 +42,7 @@ if zona != None:
   
 
 # Output para el usuario.
-with st.container(height = 500):
+with st.container(height = 700):
   for index, row in resultado.iterrows():
     st.subheader(row["Seña"])
     st.text(f"Configuración: {row["Configuración"]}, Simetría: {row["Simetría"]}, Zona: {row["Zona"]}")
@@ -51,3 +51,7 @@ with st.container(height = 500):
       st.video(path, loop=True)
     except:
       st.text("Video no encontrado (Pendiente de subir)")
+
+# Disclaimer
+st.subheader("Disclaimer")
+st.text("Esto es un prototipo para probar la idea de este diccionario LSM - Español, su funcionamiento es básico y por el momento no pretende ser una herramienta didáctica, con el tiempo se exlorará la idea y mejorará el funcionamiento")
