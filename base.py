@@ -9,7 +9,11 @@ Zona = (señas["Zona"].unique())
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
+with st.sidebar():
+  st.header("¿Cuál es el objetivo?")
 
+
+# Declaración de filtros
 configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones, index = None)
 simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
 zona = st.selectbox("En qué zona del cuerpo está?", Zona, index = None)
