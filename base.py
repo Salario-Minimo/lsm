@@ -3,8 +3,7 @@ import pandas as pd
 
 # Declaración de base de datos y filtros.
 señas = pd.read_csv("LSM base de datos")
-st.text(señas["Configuración"].unique())
-Configuraciones = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
+Configuraciones = (señas["Configuración"].unique())
 Simetrias = ("Singular", "Alternado", "Asimétrico", "Simétrico")
 Zona = ("Espacio", "Cabeza", "Pecho", "Dorso", "Palma", "Brazo")
 
