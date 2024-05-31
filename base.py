@@ -34,6 +34,7 @@ with st.container(height = 500):
     st.subheader(row["Seña"])
     st.text(f"Configuración: {row["Configuración"]}, Simetría: {row["Simetría"]}")
     path = "Videos/" + row["Seña"] + ".mp4"
+    st.text(path)
     try:
       st.video(path, loop=True)
     except:
