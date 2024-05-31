@@ -5,7 +5,7 @@ import pandas as pd
 señas = pd.read_csv("LSM base de datos")
 Configuraciones = (señas["Configuración"].unique())
 Simetrias = ("Singular", "Alternado", "Asimétrico", "Simétrico")
-Zona = ("Espacio", "Cabeza", "Pecho", "Dorso", "Palma", "Brazo")
+Zona = (señas["Zona"].unique())
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
