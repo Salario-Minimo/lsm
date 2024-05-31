@@ -4,7 +4,7 @@ import pandas as pd
 # Declaración de base de datos y filtros.
 señas = pd.read_csv("LSM base de datos")
 Configuraciones = (señas["Configuración"].unique())
-Simetrias = ("Singular", "Alternado", "Asimétrico", "Simétrico")
+Simetrias = (señas["Simetría"].unique())
 Zona = (señas["Zona"].unique())
 
 # Zona gráfica
