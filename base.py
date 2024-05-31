@@ -54,4 +54,4 @@ with st.container(height = 700):
 
 # Disclaimer
 st.subheader("Disclaimer")
-st.text("Esto es un prototipo para probar la idea de este diccionario LSM - Español, su funcionamiento es básico y por el momento no pretende ser una herramienta didáctica, con el tiempo se exlorará la idea y mejorará el funcionamiento")
+st.write("Esto es un prototipo para probar la idea de este diccionario LSM - Español, su funcionamiento es básico y por el momento no pretende ser una herramienta didáctica, con el tiempo se exlorará la idea y mejorará el funcionamiento")
