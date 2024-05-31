@@ -32,7 +32,7 @@ if zona != None:
 with st.container(height = 500):
   for index, row in resultado.iterrows():
     st.subheader(row["Seña"])
-    st.text(f"Configuración: {row["Configuración"]}, Simetría: {row["Simetría"]}")
+    st.text(f"Configuración: {row["Configuración"]}, Simetría: {row["Simetría"]}, Zona: {row["Zona"]}")
     path = "Videos/" + row["Seña"] + ".mp4"
     st.text(path)
     try:
