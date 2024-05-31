@@ -1,4 +1,4 @@
-uimport streamlit as st
+import streamlit as st
 import pandas as pd
 
 # Declaración de base de datos y filtros.
