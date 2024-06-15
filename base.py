@@ -14,12 +14,13 @@ Configuraciones = np.sort(Configuraciones)
 
 a = b = []
 for x in Configuraciones:
+  st.text(x)
   if len(x) == 1:
     b.append(x)
   else:
     a.append(x)
 Configuraciones = a + b
-st.write(a)
+st.write(b)
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
