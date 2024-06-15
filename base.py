@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
 # Declaración de base de datos y filtros.
 señas = pd.read_csv("LSM base de datos")
