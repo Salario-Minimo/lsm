@@ -3,9 +3,14 @@ import pandas as pd
 
 # Declaración de base de datos y filtros.
 señas = pd.read_csv("LSM base de datos")
+
 Configuraciones = (señas["Configuración"].unique())
 Simetrias = (señas["Simetría"].unique())
 Zona = (señas["Zona"].unique())
+
+# Organización de los filtros
+Zona = sort(Zona)
+st.write(Zona)
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
