@@ -10,8 +10,8 @@ Simetrias = (señas["Simetría"].unique())
 Zona = (señas["Zona"].unique())
 
 # Organización de los filtros
-Zona = np.sort(Zona)
-st.write(Zona)
+Configuraciones = np.sort(Configuraciones)
+st.write(Configuraciones)
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
