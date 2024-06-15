@@ -14,7 +14,7 @@ Configuraciones = np.sort(Configuraciones)
 
 a = b = []
 for x in Configuraciones:
-  st.text(x)
+  st.text(len(x))
   if len(x) == 1:
     b.append(x)
   else:
