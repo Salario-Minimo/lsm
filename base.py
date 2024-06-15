@@ -12,7 +12,7 @@ Zona = (señas["Zona"].unique())
 # Organización de los filtros
 Configuraciones = np.sort(Configuraciones)
 
-a, b = []
+a = b = []
 for x in Configuraciones:
   if len(x) == 1:
     b.append(x)
