@@ -11,6 +11,14 @@ Zona = (señas["Zona"].unique())
 
 # Organización de los filtros
 Configuraciones = np.sort(Configuraciones)
+
+a, b = []
+for x in Configuraciones:
+  if len(x) == 1:
+    b.append(x)
+  else:
+    a.append(x)
+Configuraciones = a + b
 st.write(Configuraciones)
 
 # Zona gráfica
