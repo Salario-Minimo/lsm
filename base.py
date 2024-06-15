@@ -10,7 +10,7 @@ Simetrias = (señas["Simetría"].unique())
 Zona = (señas["Zona"].unique())
 
 # Organización de los filtros
-Zona = Zona.sort_values()
+Zona = np.sort(Zona)
 st.write(Zona)
 
 # Zona gráfica
