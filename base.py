@@ -17,8 +17,10 @@ for x in Configuraciones:
   st.text(len(x))
   if len(x) == 1:
     b.append(x)
+    st.text("b")
   else:
     a.append(x)
+    st.text("a")
 Configuraciones = a + b
 st.write(b)
 
