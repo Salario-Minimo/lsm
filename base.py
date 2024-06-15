@@ -19,7 +19,7 @@ for x in Configuraciones:
   else:
     a.append(x)
 Configuraciones = a + b
-st.write(Configuraciones)
+st.write(a)
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
