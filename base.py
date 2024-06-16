@@ -16,7 +16,7 @@ a = []
 b = []
 for x in Configuraciones:
   if len(x) == 1:
-    b.append(x)
+    b.append(f"Letra {x}")
   else:
     a.append(x)
 Configuraciones = a + b
