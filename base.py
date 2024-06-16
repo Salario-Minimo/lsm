@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Declaración de base de datos y filtros.
-señas = pd.read_csv("LSM base de datos")
+señas = pd.read_csv("LSM base de datos.csv")
 
 Configuraciones = (señas["Configuración"].unique())
 Simetrias = (señas["Simetría"].unique())
