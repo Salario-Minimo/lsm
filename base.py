@@ -44,6 +44,8 @@ zona = st.selectbox("¿En qué zona del cuerpo está?", Zona, index = None)
 
 if str(configuracion)[0:2] == "Let":
   configuracion == configuracion[6]
+
+st.text(configuracion)
 # Lógica detrás del sistema de filtrado.
 if configuracion == None:
   resultado = señas
