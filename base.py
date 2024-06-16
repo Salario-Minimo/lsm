@@ -42,6 +42,8 @@ configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones, i
 simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
 zona = st.selectbox("¿En qué zona del cuerpo está?", Zona, index = None)
 
+if configuracion[0:2] == "Let"
+  configuracion == configuracion[6]
 # Lógica detrás del sistema de filtrado.
 if configuracion == None:
   resultado = señas
