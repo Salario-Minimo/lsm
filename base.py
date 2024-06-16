@@ -12,13 +12,15 @@ Zona = (señas["Zona"].unique())
 # Organización de los filtros
 Configuraciones = np.sort(Configuraciones)
 
-a = b = []
+a = []
+b = []
 for x in Configuraciones:
-  if len(x) > 1:
+  if len(x) == 1:
     b.append(x)
-    st.text("b")
+  else:
+    a.append(x)
 Configuraciones = a + b
-st.write(b)
+st.write(Configuraciones)
 
 # Zona gráfica
 st.header("🧏 Diccionario LSM - Español 📖")
