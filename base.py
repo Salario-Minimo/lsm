@@ -42,7 +42,7 @@ configuracion = st.selectbox("¿Cuál es la configuración?", Configuraciones, i
 simetria = st.selectbox("¿Cuál es la simetría?", Simetrias, index = None)
 zona = st.selectbox("¿En qué zona del cuerpo está?", Zona, index = None)
 
-if str(configuracion)[0:2] == "Let":
+if str(configuracion)[0] == "L":
   configuracion = configuracion[6]
 
 st.text(configuracion)
